@@ -1,14 +1,14 @@
 {
   "version": "0.2.0",
   "notes": "Mise à jour importante disponible : optimisation du moteur de calcul ONNX pour le criblage moléculaire SARS-CoV-2 Mpro, corrections de bugs et amélioration de la stabilité.",
-  "pub_date": "2026-10-09T11:41:00Z",
+  "pub_date": "2026-10-09T11:47:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTjdEUkY1T3J4SEh0TzZrT1Q5amhhOGMxeWJGRGZLR1U3Rkprbzd2d2hMd2Q0VWp0MHFUVkNSSXVEZDhFRUs2NlVYOFhqeTkzUk9xTndRMXZ2QjZUdk82L1h6WWNneXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ2MDQ1CWZpbGU6ZHJ1Zy1kaXNjb3ZlcnktdWlfMC4yLjBfYWFyY2g2NC5hcHAudGFyLmd6Cnk2cUJJYWh2ckFISzZhSnV0bEQ1T3B6dGFXcWxuN3dzakxpL3Z1Z0lvV2c3bmc4ZFkyVWZxQjRhTUhwYXNxdTAvUC9Tb3g2cnVGYXByZHJ4Y0hReERBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTjdEUkY1T3J4SEJhRW56R0NzUG1Ta1hBS1lEYS9NQVo5L2psSTlWVjRsTWg4RzdsWFpRa3lkZHgxc3plNkRhajV6UTcxTlFGQlF0Y1c2QU5SUWc3U1pueTVhU0lPV3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ2NDQyCWZpbGU6ZHJ1Zy1kaXNjb3ZlcnktdWlfMC4yLjBfYWFyY2g2NC5hcHAudGFyLmd6Cjh6Tm8rVnMxK0dVOWY0SHhlR2JEQmk5bXZBSnlzT1hBakZQeXNuZEVLdmkxVE1CUXpFZVRTNlpEbmVEZjJyaVVlS3ZvbWtSKzZ3cVNLU05lMFFqWUJnPT0K",
       "url": "https://github.com/CamilGrondin/drug-discovery-updates/releases/download/v0.2.0/drug-discovery-ui_0.2.0_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTjdEUkY1T3J4SEh0TzZrT1Q5amhhOGMxeWJGRGZLR1U3Rkprbzd2d2hMd2Q0VWp0MHFUVkNSSXVEZDhFRUs2NlVYOFhqeTkzUk9xTndRMXZ2QjZUdk82L1h6WWNneXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ2MDQ1CWZpbGU6ZHJ1Zy1kaXNjb3ZlcnktdWlfMC4yLjBfYWFyY2g2NC5hcHAudGFyLmd6Cnk2cUJJYWh2ckFISzZhSnV0bEQ1T3B6dGFXcWxuN3dzakxpL3Z1Z0lvV2c3bmc4ZFkyVWZxQjRhTUhwYXNxdTAvUC9Tb3g2cnVGYXByZHJ4Y0hReERBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTjdEUkY1T3J4SEJhRW56R0NzUG1Ta1hBS1lEYS9NQVo5L2psSTlWVjRsTWg4RzdsWFpRa3lkZHgxc3plNkRhajV6UTcxTlFGQlF0Y1c2QU5SUWc3U1pueTVhU0lPV3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ2NDQyCWZpbGU6ZHJ1Zy1kaXNjb3ZlcnktdWlfMC4yLjBfYWFyY2g2NC5hcHAudGFyLmd6Cjh6Tm8rVnMxK0dVOWY0SHhlR2JEQmk5bXZBSnlzT1hBakZQeXNuZEVLdmkxVE1CUXpFZVRTNlpEbmVEZjJyaVVlS3ZvbWtSKzZ3cVNLU05lMFFqWUJnPT0K",
       "url": "https://github.com/CamilGrondin/drug-discovery-updates/releases/download/v0.2.0/drug-discovery-ui_0.2.0_aarch64.app.tar.gz"
     }
   }
