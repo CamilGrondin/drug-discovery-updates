@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "notes": "Mise à jour importante disponible : optimisation du moteur de calcul ONNX pour le criblage moléculaire SARS-CoV-2 Mpro, corrections de bugs et amélioration de la stabilité.",
+  "pub_date": "2026-10-09T12:00:00Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTjdEUkY1T3J4SEFLRHRpQzA5bm9aVm9abVdMTlBJTXVyRDR0dEJJWjlSRHBVT0pPM25xcTE5Y21CVC9JQ0pML1hWRzFPM3g5VVQ1UlA4VkRVT0VsOUlTcGUyQWFXVlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ0NjkxCWZpbGU6dGVzdC50eHQKMXFPdEYwNEhpRVpramlSTHVPbHZ3OTFZVFFtUzc3QnVrSHROY3N1MUpwQWF2b0YyS0VJVytqRFZadmRWckY5Z2RRZC95bkV5RTJLVWw4OEhoZ0tvREE9PQo=",
+      "url": "https://github.com/CamilGrondin/drug-discovery-updates/releases/download/v0.2.0/drug-discovery-ui_0.2.0_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTjdEUkY1T3J4SEFLRHRpQzA5bm9aVm9abVdMTlBJTXVyRDR0dEJJWjlSRHBVT0pPM25xcTE5Y21CVC9JQ0pML1hWRzFPM3g5VVQ1UlA4VkRVT0VsOUlTcGUyQWFXVlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ0NjkxCWZpbGU6dGVzdC50eHQKMXFPdEYwNEhpRVpramlSTHVPbHZ3OTFZVFFtUzc3QnVrSHROY3N1MUpwQWF2b0YyS0VJVytqRFZadmRWckY5Z2RRZC95bkV5RTJLVWw4OEhoZ0tvREE9PQo=",
+      "url": "https://github.com/CamilGrondin/drug-discovery-updates/releases/download/v0.2.0/drug-discovery-ui_0.2.0_x64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTjdEUkY1T3J4SEFLRHRpQzA5bm9aVm9abVdMTlBJTXVyRDR0dEJJWjlSRHBVT0pPM25xcTE5Y21CVC9JQ0pML1hWRzFPM3g5VVQ1UlA4VkRVT0VsOUlTcGUyQWFXVlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ0NjkxCWZpbGU6dGVzdC50eHQKMXFPdEYwNEhpRVpramlSTHVPbHZ3OTFZVFFtUzc3QnVrSHROY3N1MUpwQWF2b0YyS0VJVytqRFZadmRWckY5Z2RRZC95bkV5RTJLVWw4OEhoZ0tvREE9PQo=",
+      "url": "https://github.com/CamilGrondin/drug-discovery-updates/releases/download/v0.2.0/drug-discovery-ui_0.2.0_x64-setup.nsis.zip"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTjdEUkY1T3J4SEFLRHRpQzA5bm9aVm9abVdMTlBJTXVyRDR0dEJJWjlSRHBVT0pPM25xcTE5Y21CVC9JQ0pML1hWRzFPM3g5VVQ1UlA4VkRVT0VsOUlTcGUyQWFXVlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ0NjkxCWZpbGU6dGVzdC50eHQKMXFPdEYwNEhpRVpramlSTHVPbHZ3OTFZVFFtUzc3QnVrSHROY3N1MUpwQWF2b0YyS0VJVytqRFZadmRWckY5Z2RRZC95bkV5RTJLVWw4OEhoZ0tvREE9PQo=",
+      "url": "https://github.com/CamilGrondin/drug-discovery-updates/releases/download/v0.2.0/drug-discovery-ui_0.2.0_amd64.AppImage.tar.gz"
+    }
+  }
+}

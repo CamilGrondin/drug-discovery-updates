@@ -1,0 +1,46 @@
+name: Update Manifest & Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version à publier (ex: 0.2.0)'
+        required: true
+        default: '0.2.0'
+      notes:
+        description: 'Notes de version / changelog pour les clients'
+        required: true
+        default: 'Mise à jour requise : améliorations et correctifs.'
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update latest.json
+        run: |
+          RAW_VERSION="${{ github.event.inputs.version || github.ref_name }}"
+          VERSION="${RAW_VERSION#v}"
+          NOTES="${{ github.event.inputs.notes || 'Nouvelle version disponible.' }}"
+          python publish_release.py --version "$VERSION" --notes "$NOTES"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add latest.json
+          git commit -m "chore(release): announce v${{ github.event.inputs.version || github.ref_name }}" || exit 0
+          git push
