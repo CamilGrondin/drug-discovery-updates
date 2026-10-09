@@ -5,11 +5,11 @@
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTjdEUkY1T3J4SEJhRW56R0NzUG1Ta1hBS1lEYS9NQVo5L2psSTlWVjRsTWg4RzdsWFpRa3lkZHgxc3plNkRhajV6UTcxTlFGQlF0Y1c2QU5SUWc3U1pueTVhU0lPV3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ2NDQyCWZpbGU6ZHJ1Zy1kaXNjb3ZlcnktdWlfMC4yLjBfYWFyY2g2NC5hcHAudGFyLmd6Cjh6Tm8rVnMxK0dVOWY0SHhlR2JEQmk5bXZBSnlzT1hBakZQeXNuZEVLdmkxVE1CUXpFZVRTNlpEbmVEZjJyaVVlS3ZvbWtSKzZ3cVNLU05lMFFqWUJnPT0K",
-      "url": "https://github.com/CamilGrondin/drug-discovery-updates/releases/download/v0.2.0/drug-discovery-ui_0.2.0_aarch64.app.tar.gz"
+      "url": "https://github.com/CamilGrondin/helixgrid-updates/releases/download/v0.2.0/drug-discovery-ui_0.2.0_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTjdEUkY1T3J4SEJhRW56R0NzUG1Ta1hBS1lEYS9NQVo5L2psSTlWVjRsTWg4RzdsWFpRa3lkZHgxc3plNkRhajV6UTcxTlFGQlF0Y1c2QU5SUWc3U1pueTVhU0lPV3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ2NDQyCWZpbGU6ZHJ1Zy1kaXNjb3ZlcnktdWlfMC4yLjBfYWFyY2g2NC5hcHAudGFyLmd6Cjh6Tm8rVnMxK0dVOWY0SHhlR2JEQmk5bXZBSnlzT1hBakZQeXNuZEVLdmkxVE1CUXpFZVRTNlpEbmVEZjJyaVVlS3ZvbWtSKzZ3cVNLU05lMFFqWUJnPT0K",
-      "url": "https://github.com/CamilGrondin/drug-discovery-updates/releases/download/v0.2.0/drug-discovery-ui_0.2.0_aarch64.app.tar.gz"
+      "url": "https://github.com/CamilGrondin/helixgrid-updates/releases/download/v0.2.0/drug-discovery-ui_0.2.0_aarch64.app.tar.gz"
     }
   }
 }

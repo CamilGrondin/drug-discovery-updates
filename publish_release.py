@@ -15,7 +15,7 @@ import os
 import subprocess
 import sys
 
-DEFAULT_KEY_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../drug-discovery-ui/src-tauri/updater.key"))
+DEFAULT_KEY_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../helixgrid-ui/src-tauri/updater.key"))
 LATEST_JSON_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "latest.json"))
 
 def sign_file(file_path: str, key_path: str, password: str = "") -> str:
@@ -70,7 +70,7 @@ def update_manifest(version: str, notes: str, platforms_data: dict, output_path:
     return manifest
 
 def main():
-    parser = argparse.ArgumentParser(description="Publier une mise à jour pour drug-discovery-ui")
+    parser = argparse.ArgumentParser(description="Publier une mise à jour pour HelixGrid")
     parser.add_argument("--version", "-v", required=True, help="Nouvelle version (ex: 0.2.0)")
     parser.add_argument("--notes", "-n", default="Nouvelle version avec améliorations et correctifs.", help="Notes de version")
     parser.add_argument("--key", "-k", default=DEFAULT_KEY_PATH, help="Chemin vers la clé privée updater.key")

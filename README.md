@@ -1,6 +1,6 @@
-# Drug Discovery - Serveur de Mises à Jour (Tauri v2)
+# HelixGrid - Serveur de Mises à Jour (Tauri v2)
 
-Ce dépôt héberge le registre et les annonces de mise à jour automatique pour le client lourd **drug-discovery-ui** (application de calcul distribué pour le criblage de molécules).
+Ce dépôt héberge le registre et les annonces de mise à jour automatique pour le client lourd **HelixGrid** (application de calcul distribué pour le criblage de molécules).
 
 ---
 
@@ -8,12 +8,12 @@ Ce dépôt héberge le registre et les annonces de mise à jour automatique pour
 
 1. **Vérification automatique :**
    Lors du démarrage de l'application cliente ou via son interface, le client interroge ce dépôt via :
-   - `https://raw.githubusercontent.com/CamilGrondin/drug-discovery-updates/main/latest.json`
-   - `https://github.com/CamilGrondin/drug-discovery-updates/releases/latest/download/latest.json`
+   - `https://raw.githubusercontent.com/CamilGrondin/helixgrid-updates/main/latest.json`
+   - `https://github.com/CamilGrondin/helixgrid-updates/releases/latest/download/latest.json`
 
 2. **Comparaison de version & Annonce :**
    Le client compare sa version actuelle (ex: `0.1.0`) avec celle déclarée dans `latest.json`.
-   - Si une version plus récente est disponible (ex: `0.2.0`), une **bannière visuelle** s'affiche dans l'application avec les notes de version (changelog) et le bouton **« Mettre à jour maintenant »**.
+   - Si une version plus récente est disponible (ex: `0.3.0`), une **bannière visuelle** s'affiche dans l'application avec les notes de version (changelog) et le bouton **« Mettre à jour maintenant »**.
    - Des logs sont également affichés dans la console de calcul.
 
 3. **Téléchargement sécurisé & Signature :**
@@ -32,7 +32,7 @@ Ce dépôt héberge le registre et les annonces de mise à jour automatique pour
   dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDFDRjFFQUU0NDUzNEVDNEQKUldSTjdEUkY1T3J4SENUTkd0K1B0MnlYUko5OS9DaWY3aXJBYkdYUTM3TWZiQThvMlNVVmc2LzMK
   ```
 - **Clé privée (`updater.key`)** :
-  Conservée localement dans `drug-discovery-ui/src-tauri/updater.key` (ignorée par Git). **Ne jamais la partager ni la committer sur un dépôt public !**
+  Conservée localement dans `helixgrid-ui/src-tauri/updater.key` (ignorée par Git). **Ne jamais la partager ni la committer sur un dépôt public !**
 
 ---
 
@@ -43,7 +43,7 @@ Ce dépôt héberge le registre et les annonces de mise à jour automatique pour
 Pour mettre à jour le manifest et pousser l'annonce sur GitHub :
 
 ```bash
-python3 publish_release.py --version 0.2.0 --notes "Mise à jour obligatoire : nouveau protocole de criblage" --commit
+python3 publish_release.py --version 0.3.0 --notes "Mise à jour majeure : HelixGrid Rebranding & multi-cibles" --commit
 ```
 
 ### Option 2 : Modifier manuellement `latest.json`
@@ -52,13 +52,13 @@ python3 publish_release.py --version 0.2.0 --notes "Mise à jour obligatoire : n
 
 ```json
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "notes": "Description des nouveautés et correctifs...",
   "pub_date": "2026-10-09T12:00:00Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "<signature_générée_par_tauri_signer>",
-      "url": "https://github.com/CamilGrondin/drug-discovery-updates/releases/download/v0.2.0/drug-discovery-ui_0.2.0_aarch64.app.tar.gz"
+      "url": "https://github.com/CamilGrondin/helixgrid-updates/releases/download/v0.3.0/HelixGrid_0.3.0_aarch64.app.tar.gz"
     }
   }
 }
@@ -67,7 +67,7 @@ python3 publish_release.py --version 0.2.0 --notes "Mise à jour obligatoire : n
 Puis committez et poussez :
 ```bash
 git add latest.json
-git commit -m "release: annonce de la version 0.2.0"
+git commit -m "release: annonce de la version 0.3.0"
 git push origin main
 ```
 
@@ -79,7 +79,7 @@ Dès le push effectué, tous les clients connectés recevront l'alerte de mise �
 
 Pour compiler et générer les archives d'update :
 ```bash
-export TAURI_SIGNING_PRIVATE_KEY="$(cat ../drug-discovery-ui/src-tauri/updater.key)"
+export TAURI_SIGNING_PRIVATE_KEY="$(cat ../helixgrid-ui/src-tauri/updater.key)"
 npm run tauri build
 ```
 Les bundles signés et leurs fichiers `.sig` seront générés dans `src-tauri/target/release/bundle/`.
